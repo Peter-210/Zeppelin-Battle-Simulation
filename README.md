@@ -6,7 +6,7 @@
 Youtube Link: https://www.youtube.com/watch?v=7nhuF90u0dk
 
 ## Setup
-- Make sure you have OpenGL installed and setup on your computer before doing any of the steps afterwards.
+- Make sure you have OpenGL installed and setup on your computer before doing any of the steps afterwards. There is a setup guide for Windows attached to the repo main branch named "OpenGL_Setup_Windows.pdf".
 
 - Put the header files into a folder called header in the same directory as the solution.
 Depending on your IDE/configuration you may need to put them elsewhere.
