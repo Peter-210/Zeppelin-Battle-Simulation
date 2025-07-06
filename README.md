@@ -2,13 +2,13 @@
 
 ## Video Demonstration
 
-[![Zeppelin Demonstration Video](https://img.youtube.com/vi/7nhuF90u0dk/0.jpg)](https://www.youtube.com/watch?v=7nhuF90u0dk)\
-Youtube Link: https://www.youtube.com/watch?v=7nhuF90u0dk
+[![Zeppelin Demonstration Video](https://img.youtube.com/vi/p9G6Ar1LSQ0/0.jpg)](https://www.youtube.com/watch?v=p9G6Ar1LSQ0)\
+Youtube Link: https://www.youtube.com/watch?v=p9G6Ar1LSQ0
 
 
 ## Features
 
-- Player and enemy zeppelins with body, engine, and propellors texture mapped. (We did use Modulate Mode)
+- Player and enemy zeppelins with body, engine, and propellors texture mapped. (Used Modulate Mode)
 
 - Propellors, Body, and engine parts are read from OBJ files.
 
