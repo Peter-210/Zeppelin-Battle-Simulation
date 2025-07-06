@@ -29,6 +29,18 @@ Youtube Link: https://www.youtube.com/watch?v=7nhuF90u0dk
 - When zeppelins are hit, they make a small rotating object which is supposed to represent some of the material heating up and melting away.
 
 
+## How To Play
+
+| Keybind | Description |
+| --- | --- |
+| W | Move Forwards |
+| S | Move Backwards |
+| UP ARROW | Fly Up |
+| DOWN ARROW | Descend Down |
+| LEFT ARROW | Turn Left |
+| RIGHT ARROW | Turn Right |
+| SPACEBAR | Toggle Laser |
+
 ## Setup
 
 1. Use Visual Studio 2017 if possible
