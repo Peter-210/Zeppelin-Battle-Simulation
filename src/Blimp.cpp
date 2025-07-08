@@ -33,9 +33,9 @@ ObjData propBlades;
 Blimp::Blimp(float locX, float locY, float locZ, float rotationHorizontal, bool isPlayer) {
 
 
-	readOBJ("../assets/sphere.obj", &body);
-	readOBJ("../assets/engine.obj", &engine);
-	readOBJ("../assets/prop_blades.obj", &propBlades);
+	readOBJ("assets/sphere.obj", &body);
+	readOBJ("assets/engine.obj", &engine);
+	readOBJ("assets/prop_blades.obj", &propBlades);
 
 
 	this->isPlayer = isPlayer;

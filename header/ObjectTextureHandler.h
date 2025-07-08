@@ -3,6 +3,7 @@
 #define OBJECT_TEXTURE_HANDLER_H
 
 #include <gl/glut.h>
+#include <cstdio>
 
 
 typedef unsigned char byte;
@@ -45,7 +46,7 @@ typedef struct ObjData
 
 	unsigned int numVertices;
 	unsigned int numIndices;
-};
+} ObjData;
 
 
 

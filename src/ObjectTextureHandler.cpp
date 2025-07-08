@@ -4,7 +4,7 @@
 #endif
 
 
-#include <stdio.h>
+#include <cstdio>
 #include <stdlib.h>
 #include <string.h>
 #include "../header/ObjectTextureHandler.h"
@@ -13,35 +13,35 @@
 RGBpixmap textures[10];
 
 void loadTextures() {
-	readBMPFile(&textures[0], "../assets/clover01.bmp");
+	readBMPFile(&textures[0], "assets/clover01.bmp");
 	setTexture(&textures[0], 9999);
 
 
-	readBMPFile(&textures[1], "../assets/balloon_blue.bmp");
+	readBMPFile(&textures[1], "assets/balloon_blue.bmp");
 	setTexture(&textures[1], 10000);
 
 
-	readBMPFile(&textures[2], "../assets/brick.bmp");
+	readBMPFile(&textures[2], "assets/brick.bmp");
 	setTexture(&textures[2], 10001);
 
 
-	readBMPFile(&textures[3], "../assets/balloon_red.bmp");
+	readBMPFile(&textures[3], "assets/balloon_red.bmp");
 	setTexture(&textures[3], 10002);
 
 
-	readBMPFile(&textures[4], "../assets/metal.bmp");
+	readBMPFile(&textures[4], "assets/metal.bmp");
 	setTexture(&textures[4], 10003);
 
 
-	readBMPFile(&textures[5], "../assets/wood.bmp");
+	readBMPFile(&textures[5], "assets/wood.bmp");
 	setTexture(&textures[5], 10004);
 
 
-	readBMPFile(&textures[5], "../assets/fire.bmp");
+	readBMPFile(&textures[5], "assets/fire.bmp");
 	setTexture(&textures[5], 10005);
 
 
-	readBMPFile(&textures[5], "../assets/laser.bmp");
+	readBMPFile(&textures[5], "assets/laser.bmp");
 	setTexture(&textures[5], 10006);
 
 
