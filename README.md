@@ -41,7 +41,15 @@ Youtube Link: https://www.youtube.com/watch?v=p9G6Ar1LSQ0
 | RIGHT ARROW | Turn Right |
 | SPACEBAR | Toggle Laser |
 
-## Setup
+## Option 1: Setup - Using CMake
+
+Run the following commands:
+```
+cmake --workflow default
+.\build\main.exe
+```
+
+## Option 2: Setup - Using Visual Studio
 
 1. Use Visual Studio 2017 if possible
 
