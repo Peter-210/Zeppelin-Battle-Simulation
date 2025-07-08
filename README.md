@@ -53,11 +53,15 @@ cmake --workflow default
 
 1. Use Visual Studio 2017 if possible
 
-2. Go to properties: "Project -> Properties"
+2. On Solution Explorer, right click Source Files -> Add --> Existing Item (Select all src/*.cpp files)
 
-3. Change Configuration to "All Configurations" and Platform to "All Platforms" (Located at the top of window)
+3. On Solution Explorer, right click Header Files -> Add --> Existing Item (Select all header/*.h files)
 
-4. In properties, go to "Configuration Properties -> VC++ Directories -> Include Directories" and add the following to the first top textbox.
+4. Open Main.cpp and go to properties: "Project -> Properties"
+
+5. Change Configuration to "All Configurations" and Platform to "All Platforms" (Located at the top of window)
+
+6. In properties, go to "Configuration Properties -> VC++ Directories -> Include Directories" and add the following to the first top textbox.
 ```
 $(SolutionDir)Dependencies\freeglut\include
 ```
