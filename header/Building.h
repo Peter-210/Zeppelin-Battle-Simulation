@@ -1,7 +1,7 @@
 #pragma once
 
-#include <gl/glut.h>;
-#include <vector>;
+#include <gl/glut.h>
+#include <vector>
 #include "../header/BoundingBox.h"
 #include "VECTOR3D.h"
 #include "Util.h"

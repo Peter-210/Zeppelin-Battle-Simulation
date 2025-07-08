@@ -10,7 +10,7 @@
 typedef struct HitResult {
 	bool hitEntity;
 	VECTOR3D hitPos;
-};
+} HitResult;
 
 
 //gets the current system time in milliseconds. Useful for tracking how much time has passed.

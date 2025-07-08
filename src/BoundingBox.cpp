@@ -1,5 +1,5 @@
 
-#include <stdio.h>;
+#include <stdio.h>
 #include "../header/BoundingBox.h"
 #include "../header/VECTOR3D.h"
 
