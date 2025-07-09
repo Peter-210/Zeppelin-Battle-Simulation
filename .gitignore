@@ -1,2 +1,8 @@
+# For CMake with VSCode
 build/
 .vscode/
+
+# For Visual Studio
+.vs/
+x64/
+Zeppelin-Battle-Simulation/
