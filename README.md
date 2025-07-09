@@ -94,5 +94,5 @@ glew32s.lib
 
 5. In properties, go to "Configuration Properties -> Build Events -> Post-Build Event -> Command Line" and add the following to the first top textbox.
 ```
-"$(SolutionDir)Dependencies\freeglut\bin\$(Platform)\freeglut.dll" "$(OutDir)"
+copy "$(SolutionDir)Dependencies\freeglut\bin\$(Platform)\freeglut.dll" "$(OutDir)"
 ```
