@@ -57,11 +57,13 @@ cmake --workflow default
 
 3. On Solution Explorer, right click Header Files -> Add --> Existing Item (Select all header/*.h files)
 
-4. Open Main.cpp and go to properties: "Project -> Properties"
+4. In Blimp.cpp and ObjectTextureHandler.cpp, change "assets/" to "../assets/"
 
-5. Change Configuration to "All Configurations" and Platform to "All Platforms" (Located at the top of window)
+5. Open Main.cpp and go to properties: "Project -> Properties"
 
-6. In properties, go to "Configuration Properties -> VC++ Directories -> Include Directories" and add the following to the first top textbox.
+6. Change Configuration to "All Configurations" and Platform to "All Platforms" (Located at the top of window)
+
+7. In properties, go to "Configuration Properties -> VC++ Directories -> Include Directories" and add the following to the first top textbox.
 ```
 $(SolutionDir)Dependencies\freeglut\include
 ```
